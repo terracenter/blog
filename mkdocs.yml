@@ -1,0 +1,74 @@
+# docs_dir: docs
+site_name: La Biblioteca de Terracenter
+repo_url: https://github.com/terracenter/biblioteca
+site_author: Terracenter
+
+theme:
+  language: es
+  name: material
+  # favicon: favicon.ico
+  # logo: favicon.ico
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    # - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # - navigation.sections
+    - navigation.path
+    - navigation.expand
+    - navigation.prune
+    - navigation.indexes
+    - navigation.tracking
+    - toc.follow
+    ##- toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Modo oscuro
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Modo claro
+      primary: teal
+      accent: lime        
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/terracenter
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/terracenter0
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/freddy-taborda-5199802a/
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details  
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: 
+  Copyright &copy; 2024 <a href="https://github.com/terracenter target="_blank" rel="noopener"> Freddy Taborda </a>
+
+  
