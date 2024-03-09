@@ -1,0 +1,1 @@
+Hay muchos tipos diferentes de módulos, cada uno proporcionando su propia funcionalidad y capacidades a Asterisk. La configuración de la carga se describe en [Configuración del cargador de módulos de Asterisk]().
