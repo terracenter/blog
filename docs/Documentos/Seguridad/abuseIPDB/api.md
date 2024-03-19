@@ -69,3 +69,5 @@ Seguridad
 ### Clave API
 
 Después de [registrarte](https://www.abuseipdb.com/register), puedes obtener tu clave API en la página de [cuentas](https://www.abuseipdb.com/account). Haz clic en la pestaña "Configuración de API" para ver tu clave de API. Puedes generar una nueva clave API en cualquier momento. Cuando generes una nueva clave API, la antigua dejará de funcionar inmediatamente.
+
+Debe proteger su clave API como si fuera una contraseña. Cualquiera que tenga acceso a su clave API puede enviar informes en su nombre. Puede pasar su clave de API como parámetro GET, pero por motivos de seguridad le recomendamos que la pase como parámetro POST.
