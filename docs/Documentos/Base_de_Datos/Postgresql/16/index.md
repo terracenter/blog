@@ -33,7 +33,7 @@ II. El lenguaje SQL
     6. Manipulación de datos
     7. Consultas
     
-[8. Tipos de datos](II._El_lenguaje_SQL/8.Tipos_de_datos.md)
+[8. Tipos de datos](II.El_lenguaje_SQL/8.Tipos_de_datos.md)
 
     9. Funciones y operadores
     10. Conversión de tipos
@@ -58,7 +58,7 @@ III. Administración de servidores
     26. Copia de seguridad y restauración
     27. Alta Disponibilidad, Equilibrio de Carga y Replicación
     
-[28. Monitorización de la Actividad de la Base de Datos](../16/III.Administración_de_servidores/28.Seguimiento_de_la_actividad_de_la_base_de_datos.md)
+[28. Monitorización de la Actividad de la Base de Datos](III.Administracion_de_servidores/28.Seguimiento_de_la_actividad_de_la_base_de_datos.md)
     
     29. Monitorización del Uso del Disco
     30. Fiabilidad y el registro de escritura anticipada
