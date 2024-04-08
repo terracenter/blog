@@ -1,5 +1,5 @@
 ---
-title: Instalación de Asterisk en Debian 12
+title: Asterisk en Debian 12
 ---
 
 !!! Fuente
@@ -9,8 +9,8 @@ title: Instalación de Asterisk en Debian 12
 [//]: # (fin-Fuente)
 
 
-## Preparar el Entorno
-### Actualización del servidor
+Actualización del servidor
+--------------------------
 ```bash
 sudo apt update && sudo apt upgrade
 ```
@@ -19,7 +19,8 @@ sudo apt update && sudo apt upgrade
 sudo apt install -y vim-nox wget tar curl subversion
 ```
 
-## Proceso de Instalación
+Proceso de Instalación
+----------------------
 
 !!! nota
 		  
@@ -44,7 +45,8 @@ rm -rf asterisk-20-current.tar.gz
 cd asterisk-20*
 ```
 
-## Configuración de archivos de instalación de Asterisk
+Configuración de archivos de instalación de Asterisk
+----------------------------------------------------
 ### Soporte para MP3
 ```bash
 contrib/scripts/get_mp3_source.sh  
@@ -73,7 +75,8 @@ make menuselect
 ```bash
 make -j4 # -j4 es opcional 
 ```
-## Instalación del Asterisk 
+Instalación del Asterisk 
+------------------------
 ```bash
 sudo make install
 ```
@@ -133,7 +136,8 @@ security = security
 ```
 
 
-##  Arrancar el sistema Asterisk
+Arrancar el sistema Asterisk
+----------------------------
 ### Al iniciar el sistema operativo
 ```bash
 sudo systemctl enable asterisk.service
@@ -149,7 +153,8 @@ sudo systemctl start asterisk.service
 sudo systemctl status asterisk.service
 ```
 
-## Codecs
+Codecs
+------
 ### Activar el codec opus
 - Descarga
 ```bash

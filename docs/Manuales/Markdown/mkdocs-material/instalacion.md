@@ -1,18 +1,24 @@
-# MkDocs y Material for MkDocs
-Sitios web:
-- [MkDocs]([https://www.mkdocs.org/](https://)https:/)
+---
+title: MkDocs y Material for MkDocs
+---
+
+
+Sitios web
+----------
+- [MkDocs](https://www.mkdocs.org/)
 - [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/https:/)
 
-Fuente: 
+Fuente
+------
 - https://www.youtube.com/watch?v=Q-YA_dA8C20
 
-Pre-requisitos
+### Pre-requisitos
 - Python
 - Git y Github
 - Visual Studio Code
     - Plugin MkDocs Syntax Highlight
 
-* Pasos
+#### Pasos
 1. Crear el proyecto en github
     - Repositorio publico
     - .gitignore 
@@ -27,9 +33,10 @@ Pre-requisitos
     ```bash
     cd biblioteca
     ```
+
 3. Entorno Virtual Python
     ```bash
-    sudo apt install python3.10-venv   
+    sudo apt install python3.10-venv python3-pip
     ```    
     - Creación
         ```bash
@@ -39,14 +46,17 @@ Pre-requisitos
         ```bash
          source venv/bin/activate
         ```
+
 4. Instalación de mkdocs-material
     ```bash
     pip install mkdocs-material 
     ```
+
 5. Creación de un MK-Docs Webiste
     ```bash
     mkdocs new .
     ```
+
 6. Ejecutar el servidor en local
     ```bash
     mkdocs serve
@@ -106,6 +116,7 @@ Pre-requisitos
         ```bash
         git push origin main
         ```
+
 10. Ir a Github
     - Setting
         - pages

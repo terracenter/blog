@@ -4,31 +4,27 @@ repo_url: https://github.com/terracenter/biblioteca
 site_author: Terracenter
 
 theme:
-  language: es
   name: material
-  # favicon: favicon.ico
-  # logo: favicon.ico
   features:
+    - content.code.copy
+    - navigation.footer
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-    ## - navigation.sections
     - navigation.path
-    - navigation.expand
     - navigation.prune
     - navigation.indexes
-    - navigation.tracking
     - toc.follow
-    ## - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
+    - search.share
+    # # - content.tabs.link
+    # # - content.code.annotation
+    # # - content.code.copy
   palette:
     - scheme: default
       toggle:
@@ -41,7 +37,14 @@ theme:
         icon: material/toggle-switch
         name: Modo claro
       primary: blue
-      accent: lime        
+      accent: lime
+
+extra_css:
+    - stylesheets/extra.css      
+
+plugins:
+
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -50,6 +53,24 @@ extra:
       link: https://twitter.com/terracenter0
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/freddy-taborda-5199802a/
+  analytics:
+    provider: google
+    property: G-5T8Q8F61MQ
+    feedback:
+      title: ¿Te ha resultado útil esta página?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: ¿Te ha resultado útil esta página?
+          data: 1
+          note: >-
+            Gracias por sus comentarios.
+        - icon: material/thumb-down-outline
+          name: Esta página podría mejorarse
+          data: 0
+          note: >- 
+            Gracias por sus comentarios. Ayúdenos a mejorar esta página utilizando nuestro <a href="..." target="_blank" rel="noopener">formulario de comentarios</a>.
+
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
